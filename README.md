@@ -9,7 +9,7 @@ It defines a formal, machine-readable model of a real-world person's identity da
 ## Key components
 
 - **`persona.ttl`** — This application ontology extends IEEE Person Ontology (PO) PersonOntology, PostalAddressOntology, 
-                    and StagingOntology for the Mee IdAgent application
+                    and StagingOntology for the Mee Identity Agent
 
 - **`persona-shacl.ttl`** — SHACL (Shapes Constraint Language) rules that define *which* classes and properties are valid and *how* data must be structured. For example:
   - A `Person` must have designators (name, SSN, phone, email, address)
